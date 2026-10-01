@@ -1,0 +1,11 @@
+*.bak
+claude-config-backups/
+settings.local.json
+.credentials.json
+*.env
+.env*
+*.jsonl
+projects/
+sessions/
+reports/
+*.log

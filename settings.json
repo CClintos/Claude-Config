@@ -1,6 +1,11 @@
 {
+  "model": "opusplan",
+  "env": {
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "claude-opus-5-5",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "claude-sonnet-5-5"
+  },
   "enabledPlugins": {
-    "superpowers@superpowers-dev": true
+    "superpowers@superpowers-dev": false
   },
   "extraKnownMarketplaces": {
     "superpowers-dev": {
@@ -10,11 +15,5 @@
       }
     }
   },
-  "model": "opusplan",
-  "env": {
-    "ANTHROPIC_DEFAULT_OPUS_MODEL": "claude-opus-5-5",
-    "ANTHROPIC_DEFAULT_SONNET_MODEL": "claude-sonnet-5-5"
-  },
-  "autoUpdatesChannel": "latest",
-  "theme": "dark"
+  "promptSuggestionEnabled": false
 }

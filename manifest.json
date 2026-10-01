@@ -1,0 +1,5 @@
+{
+  "claudeMd": "CLAUDE.md",
+  "settings": "settings.json",
+  "agents": ["agents/grunt.md"]
+}
